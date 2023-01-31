@@ -1,7 +1,7 @@
 
 # Docu-Trax System Project
 ## Background Information
-Project is an application used to track, manage and store documents.
+Project is an application used to track, manage and store files.
 ## Features
 
 * Users can sign up/ log into the application
@@ -64,7 +64,7 @@ Project is an application used to track, manage and store documents.
      > https://github.com/msknDev/docu-trax.git
 - Navigate  to the repo's folder on your computer.
 
-     > cd document-management-system/
+     > cd docu-trax/
 
 - Ensure you have [Node.js](https://nodejs.org/en/) installed.
 - Install the app's dependencies using npm.

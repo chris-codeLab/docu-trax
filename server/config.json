@@ -1,0 +1,24 @@
+{
+  "development": {
+    "username": "",
+    "password": null,
+    "database": "document-management-system",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  },
+  "test": {
+    "username": "",
+    "password": null,
+    "database": "dms_test",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  },
+  "travis": {
+    "use_env_variable": "DATABASE_URL",
+    "dialect": "postgres"
+  },
+  "production": {
+    "use_env_variable": "DATABASE_URL_PROD",
+    "dialect": "postgres"
+  }
+}

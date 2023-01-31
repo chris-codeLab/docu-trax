@@ -19,7 +19,7 @@ class Body extends Component {
             <Row>
               <Col m={12}>
                 <i className="material-icons">library_books</i>
-                <h4>Your Document Management System <br /><em>...A safe place for all your files</em></h4>
+                <h4>Your Docu-Trax Account <br /><em>...A safe place for all your files</em></h4>
                 <Link to="/app/dashboard" className="waves-effect waves-light btn-large">Go To Dashboard</Link>
               </Col>
             </Row>
@@ -33,7 +33,7 @@ class Body extends Component {
           <Row>
             <Col m={12}>
               <i className="material-icons">library_books</i>
-              <h4>Your Document Management System <br /><em>...A safe place for all your files</em></h4>
+              <h4>Your Docu-Trax Account <br /><em>...A safe place for all your files</em></h4>
               <Link to="/app/signup" className="waves-effect waves-light btn-large">Get Started</Link>
             </Col>
           </Row>

@@ -1,0 +1,14 @@
+language: node_js
+node_js: "stable"
+
+node_js:
+  - node
+
+services:
+  - postgresql
+
+before_install:
+  - psql -c 'create database dms_test;' -U postgres
+
+after_success:
+  - cat coverage/*lcov.info | ./node_modules/.bin/coveralls
